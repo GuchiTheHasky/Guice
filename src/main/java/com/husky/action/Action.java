@@ -1,5 +1,5 @@
 package com.husky.action;
 
 public interface Action {
-    void execute(int firstNum, int secondNum);
+    void calculate(int firstNum, int secondNum);
 }

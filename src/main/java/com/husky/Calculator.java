@@ -38,7 +38,7 @@ public class Calculator {
                 System.out.println("Invalid operator");
                 return;
         }
-        action.execute(firstNumber, secondNumber);
+        action.calculate(firstNumber, secondNumber);
     }
 }
 
