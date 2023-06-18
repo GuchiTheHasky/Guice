@@ -1,0 +1,10 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="plus" class="com.husky.action.Plus"/>
+    <bean id="minus" class="com.husky.action.Minus"/>
+    <bean id="multiply" class="com.husky.action.Multiply"/>
+    <bean id="divide" class="com.husky.action.Divide"/>
+
+</beans>
